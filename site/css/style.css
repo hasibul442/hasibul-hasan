@@ -1,4 +1,35 @@
 *{
-    height: auto;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+ 
 }
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+    
+.navbar-nav li a{
+    float: left;
+
+}
+#nav-bar ul li a:hover{
+    color: black;
+    background-color:white;
+}
+
+.navbar-toggler{
+    border: none!important;
+   
+}
+.nav-link{
+    
+    font-weight: 600;
+    font-size: 16px;
+}
+
