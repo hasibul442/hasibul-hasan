@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
     background-color: #181818;
- 
 }
 #nav-bar{
     position: sticky;
@@ -31,5 +32,24 @@
     
     font-weight: 600;
     font-size: 16px;
+}
+
+#menu{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#menu h1{
+    margin-top: 20px;
+    color: #cccccc;
+}
+.rounded-circle{
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellowgreen;
 }
 
