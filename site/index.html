@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
     <title>Mohammad Hasibul Hasan</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/preloader.css">
+
+    <link rel="stylesheet" href="css/animation.css">
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -73,6 +75,7 @@
                         <span class="line"></span>
                       </span>
                 </p>
+                <h4 class="pl-5">Web Developer, Machine Learning Researcher &amp; UiUx Designer</h4>
             </div>
             <div class="col-sm-4">
                 <img src="img/p1.jpg" class="rounded-circle " > 
@@ -81,10 +84,67 @@
     </div>
     </section>
 
-    
 
+<!-- certificate-->
+    <section  id="Course">
+        <div class="container-fluid">
+            <h1>COURSES</h1>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" >
+                        <div class="Course-img">
+                            <img src="img/C1.jpg">
+                            <div class="Course-details">
+                                <h6>Academy : Cisco Networking Academy</h6>
+                                <h5>Course Name : Introduction to Cybersecurity</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" >
+                        <div class="Course-img">
+                            <img src="img/C2.jpg">
+                            <div class="Course-details">
+                                <h6>Academy : a2i</h6>
+                                <h5>Course Name : Corona Virus Disease (COVID-19)</h5>
+                            </div>
+                        </div>
+                    </div>
+                 
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+        </div>
+        </section>
+
+    
+<script src="js/swiper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="js/animation.js"></script>
 <script src="js/animation1.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+
+
 </body>
 </html>
