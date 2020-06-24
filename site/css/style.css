@@ -50,6 +50,19 @@ body{
     width: 16px;
     height: 16px;
 }
+.middle{
+    position: absolute;
+    width:100%;
+}
+.btn{
+    color: white;
+    overflow: hidden;
+}
+.btn:hover i{
+    
+    
+    transform: scale(1.3);
+}
 
 /*--------------------CERTIFICATE-------------------------*/
 #Course h1{
