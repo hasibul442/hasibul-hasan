@@ -2,5 +2,9 @@
     "cSpell.ignoreWords": [
         "mycontroller"
     ],
-    "workbench.colorCustomizations": null
+    "workbench.colorCustomizations": null,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true
 }

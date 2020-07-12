@@ -1,5 +1,5 @@
-git <!DOCTYPE html>
-<html lang="en" ng-app="mywebpage">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,14 +21,13 @@ git <!DOCTYPE html>
     <link rel="stylesheet" href="css/animation.css" />
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/app.js"></script>
   </head>
   <body>
     <section id="nav-bar">
-      <nav class="navbar navbar-expand-lg navbar-dark ">
+      <nav class="container-sm-12 navbar navbar-expand-lg navbar-dark ">
         <button
           class="navbar-toggler"
           type="button"
@@ -112,32 +111,24 @@ git <!DOCTYPE html>
                 >&nbsp;&nbsp;Shamoly, Dhaka, Bangladesh
               </p>
             </div>
-            <br/>
+            <br />
 
-            <div class="middle ">
+            <div class="middle">
               <div class="row ml-5">
-                <div class="col-sm-2">
-                  <a class="btn btn-outline-primary " href="#">
+                <div class="col-sm-10">
+                  <a class="btn btn-outline-primary mr-1 pb-2 border-0" href="#">
                     <i class="fab fa-facebook-f"></i>
                   </a>
-                </div>
-                <div class="col-sm-2">
-                  <a class="btn btn-outline-primary ml-3" href="#">
+                  <a class="btn btn-outline-primary mr-1 pb-2 border-0" href="#">
                     <i class="fab fa-github"></i>
                   </a>
-                </div>
-                <div class="col-sm-2">
-                  <a class="btn btn-outline-primary ml-3" href="#">
+                  <a class="btn btn-outline-primary mr-1 pb-2 border-0" href="#">
                     <i class="fab fa-linkedin"></i>
                   </a>
-                </div>
-                <div class="col-sm-2">
-                  <a class="btn btn-outline-primary ml-3" href="#">
+                  <a class="btn btn-outline-primary mr-1 pb-2 border-0" href="#">
                     <i class="fab fa-instagram"></i>
                   </a>
-                </div>
-                <div class="col-sm-2">
-                  <a class="btn btn-outline-primary ml-3" href="#">
+                  <a class="btn btn-outline-primary mr-1 pb-2 border-0" href="#">
                     <i class="fab fa-behance"></i>
                   </a>
                 </div>
@@ -145,8 +136,8 @@ git <!DOCTYPE html>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <img src="img/p1.jpg" class="rounded-circle mx-auto" />
+          <div class="col-sm-4 mx-auto my-auto">
+            <img src="img/p1.jpg" class="rounded-circle mx-auto my-auto" />
           </div>
         </div>
       </div>
@@ -154,7 +145,7 @@ git <!DOCTYPE html>
 
     <!-- certificate-->
     <section id="Course">
-      <div class="container-fluid">
+      <div class="container">
         <h1>COURSES</h1>
         <div class="swiper-container">
           <div class="swiper-wrapper">
@@ -220,6 +211,29 @@ git <!DOCTYPE html>
           </div>
           <!-- Add Pagination -->
           <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ---------------------Skills----------------- -->
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
