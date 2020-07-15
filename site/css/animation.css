@@ -1,4 +1,4 @@
-#menu h1{
+#menu h2{
     margin-top: 50px;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -7,7 +7,7 @@
 }
 
   
-#menu h1 .text-wrapper {
+#menu h2 .text-wrapper {
     position: relative;
     display: inline-block;
     padding-top: 0.1em;
@@ -15,7 +15,7 @@
     padding-bottom: 0.15em;
   }
   
-#menu h1 .line {
+#menu h2 .line {
     opacity: 0;
     position: absolute;
     left: 0;
@@ -25,12 +25,12 @@
     transform-origin: 0 50%;
   }
   
-#menu h1 .line1 { 
+#menu h2 .line1 { 
     top: 0; 
     left: 0;
   }
   
-#menu h1 .letter {
+#menu h2 .letter {
     display: inline-block;
     line-height: 1em;
   }

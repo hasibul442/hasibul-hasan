@@ -163,3 +163,17 @@ body {
 }
 
 /*--------------------Skills--------------------*/
+h1 {
+  text-align: center;
+  color: white !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+h1::after {
+  content: "";
+  background: whitesmoke;
+  display: block;
+  height: 3px;
+  width: 250px;
+  margin: 20px auto 5px;
+}
