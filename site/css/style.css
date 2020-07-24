@@ -206,7 +206,7 @@ h1::after {
 .skills .round{
     padding-top: 20px;
     padding-left: 10px;
-    min-height: 155px;
+    min-height: 150px;
     position: relative;
     text-align: center;
     
@@ -215,20 +215,15 @@ h1::after {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
-    transform: translate(30%,280%);
+    margin-top: 0px;
+    transform: translate(-30%,-100%);
+    color: white;
     
 }
 .skills span{
     display: block;
-    color: #999999;
+    color: white;
     font-size: 17px;
     margin-top: 10px;
     text-align: center;
-
-}
-.skills span i{
-    color: #ff5c5c;
-    font-size: 22px;
-    margin-right: 7px;
 }
