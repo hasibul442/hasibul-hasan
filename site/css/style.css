@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 * {
   margin: 0;
   padding: 0;
+ 
 }
 body {
   background-color: #020100;
+  font-family: 'Lora', serif;
+  
+ 
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
 }
 .navbar {
   background-color: #02040f;
 }
-#nav-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
 .navbar-nav li {
   padding: 0 10px;
+  text-transform: uppercase;
 }
 
 .navbar-nav li a {
@@ -22,11 +30,13 @@ body {
 }
 #nav-bar ul li a:hover {
   color: black;
-  background-color: white;
+  background-color: #f25c54;
+  transition: 0.5s;
+  height: fixed;
 }
 
 .navbar-toggler {
-  border: none !important;
+  border: 1px solid black;
 }
 .nav-link {
   font-weight: 600;
@@ -55,12 +65,15 @@ body {
   width: 50px;
 
 }
+
 .btn:hover i {
   transform: scale(1.3);
+  color:#f25c54;
 }
 
 /*--------------------CERTIFICATE-------------------------*/
 #Course h1 {
+ 
   text-align: center;
   color: white !important;
   padding-bottom: 10px;
@@ -168,6 +181,7 @@ h1 {
   color: white !important;
   padding-bottom: 10px;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 h1::after {
   content: "";
@@ -176,4 +190,45 @@ h1::after {
   height: 3px;
   width: 250px;
   margin: 20px auto 5px;
+}
+/*--------Skills-------*/
+
+.skills h3{
+  text-align: center;
+  color: white !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+
+
+        /*--------Professional Skills-------*/
+.skills .round{
+    padding-top: 20px;
+    padding-left: 10px;
+    min-height: 155px;
+    position: relative;
+    text-align: center;
+    
+}
+.skills .round strong{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    transform: translate(30%,280%);
+    
+}
+.skills span{
+    display: block;
+    color: #999999;
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.skills span i{
+    color: #ff5c5c;
+    font-size: 22px;
+    margin-right: 7px;
 }
