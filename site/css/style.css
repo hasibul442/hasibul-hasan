@@ -72,6 +72,9 @@ body {
 }
 
 /*--------------------CERTIFICATE-------------------------*/
+#Course{
+  margin-top: 40px;
+}
 #Course h1 {
  
   text-align: center;
@@ -192,7 +195,9 @@ h1::after {
   margin: 20px auto 5px;
 }
 /*--------Skills-------*/
-
+.skills{
+  margin-top: 40px;
+}
 .skills h3{
   text-align: center;
   color: white !important;
