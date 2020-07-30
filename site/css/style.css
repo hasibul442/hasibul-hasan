@@ -5,7 +5,7 @@
  
 }
 body {
-  background-color: #020100;
+  background-color: #0a0908;
   font-family: 'Lora', serif;
   
  
@@ -30,7 +30,7 @@ body {
 }
 #nav-bar ul li a:hover {
   color: black;
-  background-color: #f25c54;
+  background-color: #9bf6ff;
   transition: 0.5s;
   height: fixed;
 }
@@ -57,18 +57,20 @@ body {
   width: 16px;
   height: 16px;
 }
+#contact-icon:hover{
+  color:#9bf6ff;
+}
 .middle {
   width: 100%;
 }
 .btn {
   color: white;
   width: 50px;
-
 }
 
-.btn:hover i {
-  transform: scale(1.3);
-  color:#f25c54;
+.btn:hover {
+  color:black;
+  background-color: #9bf6ff;
 }
 
 /*--------------------CERTIFICATE-------------------------*/
@@ -194,21 +196,43 @@ h1::after {
   width: 250px;
   margin: 20px auto 5px;
 }
-/*--------Skills-------*/
-.skills{
+/*--------Technical Skills-------*/
+.tech-skills{
   margin-top: 40px;
 }
-.skills h3{
+.tech-skills h3{
+  text-align: center;
+  color: white !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+#bg{
+  background-color:#9bf6ff;
+}
+.tech-skills .nav-item{
+  color: #9bf6ff;
+  border: none;
+}
+.tech-skills .progress{
+  background-color:#323031;
+  height: 5px;
+}
+.tech-skills h6{
+  color:white;
+  margin-top: 20px;
+}
+
+
+
+/*--------Professional Skills-------*/
+.prof-skills h3{
   text-align: center;
   color: white !important;
   padding-bottom: 10px;
   padding-top: 20px;
 }
 
-
-
-        /*--------Professional Skills-------*/
-.skills .round{
+.prof-skills .round{
     padding-top: 20px;
     padding-left: 10px;
     min-height: 150px;
@@ -216,7 +240,7 @@ h1::after {
     text-align: center;
     
 }
-.skills .round strong{
+.prof-skills .round strong{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -225,7 +249,7 @@ h1::after {
     color: white;
     
 }
-.skills span{
+.prof-skills span{
     display: block;
     color: white;
     font-size: 17px;
