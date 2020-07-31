@@ -215,13 +215,12 @@ h1::after {
 }
 .tech-skills .progress{
   background-color:#323031;
-  height: 5px;
+  height: 6px;
 }
 .tech-skills h6{
   color:white;
   margin-top: 20px;
 }
-
 
 
 /*--------Professional Skills-------*/
