@@ -224,6 +224,10 @@ h1::after {
 
 
 /*--------Professional Skills-------*/
+.prof-skills{
+ padding-top: 20px;
+ padding-bottom: 60px;
+}
 .prof-skills h3{
   text-align: center;
   color: white !important;
@@ -254,4 +258,39 @@ h1::after {
     font-size: 17px;
     margin-top: 10px;
     text-align: center;
+}
+
+/*-------------------Experience---------------------------------------*/
+.experience{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+  url(../img/b-2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card{
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.card:hover{
+  box-shadow: 0 2px 20px #9bf6ff;
+}
+
+.card-body{
+  background-color: #03071e;
+}
+.card-body a{
+  text-decoration: none;
+}
+.card-subtitle{
+
+  color: #9bf6ff;
+} 
+.card li{
+  margin:2px 0;
+  line-height: 23px;
 }
