@@ -60,7 +60,7 @@ body {
 #contact-icon:hover{
   color:#9bf6ff;
 }
-#phone a{
+#phone >a{
   text-decoration: none;
   color:white;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 /*--------------------About Me--------------------*/
-.aboutme h2{
+.aboutme > h2{
   color: white;
 
 }
