@@ -60,6 +60,10 @@ body {
 #contact-icon:hover{
   color:#9bf6ff;
 }
+#phone a{
+  text-decoration: none;
+  color:white;
+}
 .middle {
   width: 100%;
 }
@@ -73,15 +77,49 @@ body {
   background-color: #9bf6ff;
 }
 
+/*--------------------About Me--------------------*/
+.aboutme h2{
+  color: white;
 
+}
+.aboutme .hello{
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+.aboutme .hello span{
+  color: #9bf6ff;
+}
 
+.aboutme-pera{
+  color: white;
+}
+.aboutme-pera a{
+  color: #9bf6ff;
+  text-decoration: none;
+}
+.aboutme ul{
+  color: white;
+  text-decoration: none;
+  font-style: none;
+  list-style: none;
+}
+.aboutme ul li{
+  color: white;
+  float: left;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #9bf6ff;
+  border-radius: 5px;
+}
 /*--------------------Skills--------------------*/
 h1 {
   text-align: center;
   color: white !important;
   padding-bottom: 10px;
   padding-top: 20px;
-  text-transform: uppercase;
+  
 }
 h1::after {
   content: "";
