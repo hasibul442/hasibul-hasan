@@ -60,7 +60,16 @@ body {
 #contact-icon:hover{
   color:#9bf6ff;
 }
+#mail a{
+  text-decoration: none;
+  color:#fff;
+}
 #phone a{
+  text-decoration: none;
+  color:#fff;
+}
+
+#skype a{
   text-decoration: none;
   color:#fff;
 }
