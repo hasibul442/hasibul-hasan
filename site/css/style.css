@@ -30,7 +30,6 @@ body {
 }
 #nav-bar ul li a:hover {
   color: black;
-  background-color: #9bf6ff;
   transition: 0.5s;
   height: fixed;
 }
@@ -42,6 +41,38 @@ body {
   font-weight: 600;
   font-size: 16px;
 }
+/*----------------------Common style Start-----*/
+.experience .card, .services .card{
+  background-color: transparent;
+  transition: 0.5s;
+}
+.experience .card:hover, .services .card:hover{
+  box-shadow: 0 2px 20px #9bf6ff;
+}
+.aboutme ul, .services .tools{
+  color: white;
+  text-decoration: none;
+  font-style: none;
+  list-style: none;
+}
+.aboutme ul li, .services .tools li{
+  color: white;
+  float: left;
+  padding: 5px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #9bf6ff;
+  border-radius: 5px;
+}
+#nav-bar ul li a:hover, .middle .btn:hover, #bg, .services .btn{
+  background-color:#9bf6ff;
+}
+#contact-icon:hover, .aboutme .hello span, .aboutme-pera a,.tech-skills .nav-item, .experience .card-subtitle, .services i,.services p{
+  color:#9bf6ff;
+}
+
+/*----------------------Common style End-----*/
+
 
 #menu {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -57,37 +88,26 @@ body {
   width: 16px;
   height: 16px;
 }
-#contact-icon:hover{
-  color:#9bf6ff;
-}
-#mail a{
-  text-decoration: none;
-  color:#fff;
-}
-#phone a{
+
+#mail a, #phone a, #skype a{
   text-decoration: none;
   color:#fff;
 }
 
-#skype a{
-  text-decoration: none;
-  color:#fff;
-}
 .middle {
   width: 100%;
 }
-.btn {
+.middle .btn {
   color: white;
   width: 50px;
 }
 
-.btn:hover {
+.middle .btn:hover {
   color:black;
-  background-color: #9bf6ff;
 }
 
 /*--------------------About Me--------------------*/
-.aboutme h2{
+.aboutme h2, .aboutme-pera{
   color: white;
 
 }
@@ -96,32 +116,35 @@ body {
   font-size: 16px;
   font-weight: 200;
 }
-.aboutme .hello span{
-  color: #9bf6ff;
-}
-
-.aboutme-pera{
-  color: white;
-}
 .aboutme-pera a{
-  color: #9bf6ff;
   text-decoration: none;
 }
-.aboutme ul{
+/*--------------------Service-------------------------*/
+.services .card{
+ background-color: #212529;
+}
+
+.services .roles{
   color: white;
   text-decoration: none;
   font-style: none;
   list-style: none;
 }
-.aboutme ul li{
-  color: white;
-  float: left;
-  padding: 5px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  border: 1px solid #9bf6ff;
-  border-radius: 5px;
+.services p{
+  font-size: 24px;
+  font-weight: 50;
 }
+.services h3{
+  color: white;
+}
+.services i{
+  height: 30px;
+  width: 30px;
+}
+.services a{
+  float: center;
+}
+
 /*--------------------Skills--------------------*/
 h1 {
   text-align: center;
@@ -148,11 +171,8 @@ h1::after {
   padding-bottom: 10px;
   padding-top: 20px;
 }
-#bg{
-  background-color:#9bf6ff;
-}
+
 .tech-skills .nav-item{
-  color: #9bf6ff;
   border: none;
 }
 .tech-skills .progress{
@@ -213,26 +233,14 @@ h1::after {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.card{
-  background-color: transparent;
-  transition: 0.5s;
-}
 
-.card:hover{
-  box-shadow: 0 2px 20px #9bf6ff;
-}
-
-.card-body{
+.experience .card-body{
   background-color: #03071e;
 }
-.card-body a{
+.experience .card-body a{
   text-decoration: none;
 }
-.card-subtitle{
-
-  color: #9bf6ff;
-} 
-.card li{
+.experience .card li{
   margin:2px 0;
   line-height: 23px;
 }
@@ -342,4 +350,8 @@ h1::after {
   transform: scale(1.3);
 
   transition: all 1.5s ease-out;
+}
+
+.footer{
+  color: white;
 }
