@@ -22,7 +22,7 @@ body {
 }
 .navbar-nav li {
   padding: 0 10px;
-  text-transform: uppercase;
+  
 }
 
 .navbar-nav li a {
@@ -32,6 +32,7 @@ body {
   color: black;
   transition: 0.5s;
   height: fixed;
+  border-radius: 50px 20px;
 }
 
 .navbar-toggler {
@@ -42,11 +43,11 @@ body {
   font-size: 16px;
 }
 /*----------------------Common style Start-----*/
-.experience .card, .services .card{
+.services .card, .experience .card{
   background-color: transparent;
   transition: 0.5s;
 }
-.experience .card:hover, .services .card:hover{
+.services .card:hover,.experience .card:hover{
   box-shadow: 0 2px 20px #9bf6ff;
 }
 .aboutme ul, .services .tools{
@@ -64,10 +65,10 @@ body {
   border: 1px solid #9bf6ff;
   border-radius: 5px;
 }
-#nav-bar ul li a:hover, .middle .btn:hover, #bg, .services .btn{
+#nav-bar ul li a:hover, .middle .btn:hover, #bg, .services .btn, .tech-skills .nav-item:hover{
   background-color:#9bf6ff;
 }
-#contact-icon:hover, .aboutme .hello span, .aboutme-pera a,.tech-skills .nav-item, .experience .card-subtitle, .services i, .services p{
+#contact-icon:hover, .aboutme .hello span, .aboutme-pera a, .experience .card-subtitle, .services i, .services p{
   color:#9bf6ff;
 }
 
@@ -100,10 +101,13 @@ body {
 .middle .btn {
   color: white;
   width: 50px;
+  
 }
 
 .middle .btn:hover {
   color:black;
+  border-radius: 50px 20px;
+  transition: 0.5s;
 }
 
 /*--------------------About Me--------------------*/
@@ -122,8 +126,11 @@ body {
 /*--------------------Service-------------------------*/
 .services .card{
  background-color: #212529;
+ border-radius: 60px 30px;
 }
-
+.services .card:hover{
+  border-radius: 30px 60px;
+}
 .services .roles{
   color: white;
   text-decoration: none;
@@ -141,8 +148,9 @@ body {
   height: 30px;
   width: 30px;
 }
-.services a{
+.services .btn{
   float: center;
+  border-radius: 50px 20px;
 }
 
 /*--------------------Skills--------------------*/
@@ -174,6 +182,12 @@ h1::after {
 
 .tech-skills .nav-item{
   border: none;
+  color: white;
+}
+.tech-skills .nav-item:hover{
+  color: black;
+  transition: 0.5s;
+  border-radius: 50px 20px;
 }
 .tech-skills .progress{
   background-color:#323031;
