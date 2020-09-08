@@ -16,10 +16,10 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
-  <link rel="stylesheet" href="css/swiper.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="plugin/aos.css" />
+  
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -29,6 +29,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>
+  <script src="js/filter.js"></script>
 
 </head>
 
@@ -633,55 +634,131 @@
             </ul>
           </div>
         </div>
-
-
       </div>
-
     </div>
   </div>
 </section>
 
-
 <!-------------------Recent Portfolio------------------------>
-  <section class="portfolio">
-    <div class="container">
-      <div class="pt-5">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">All Categories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="pills-certifications-tab" data-toggle="pill" href="#pills-certifications" role="tab" aria-controls="pills-certifications" aria-selected="false">Certifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="pills-publication-tab" data-toggle="pill" href="#pills-publication" role="tab" aria-controls="pills-publication" aria-selected="false">Publication</a>
-          </li>
-        </ul>
+<section class="project-area pb-5 pt-5">
+  <div class="container">
+      <div class="project-title pb-5">
+          <h1>Recent Portfolio</h1>
+      </div>
 
-        <div class="tab-content" id="pills-tabContent">
+      <div class="text-center pb-5">
+          <button type="button" class="btn active" id="btn1" data-filter="*">All Categories</button>
+          <button type="button" class="btn" data-filter=".certificates">Certificates</button>
+          <button type="button" class="btn" data-filter=".uiux">Ui/Ux</button>
+          <button type="button" class="btn" data-filter=".projects">Projects</button>
+          <button type="button" class="btn" data-filter=".publications">Publications</button>
+          <button type="button" class="btn" data-filter=".upcoming">Upcoming</button>
+      </div>
 
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <img data-aos="fade-up" src="img/C1.jpg">
+      <div class="row">
+          <div class="col-sm-3 pb-3 certificates">
+              <div class="our-project">
+                  <div class="img">
+                    <img src="img/c-1.jpg" alt="certificates-1" class="img-fluid">
+                  </div>
+                  
+              </div>
           </div>
 
-          <div class="tab-pane fade" id="pills-certifications" role="tabpanel" aria-labelledby="pills-certifications-tab">
-            
+          <div class="col-sm-3 pb-3 element-item uiux">
+            <div class="our-project">
+                <div class="img">
+                    <img src="img/Dashboard-2.png" alt="portfolio-1" class="img-fluid">
+                </div>
+                
+            </div>
           </div>
 
-          <div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
-            
+        <div class="col-sm-3 pb-3 element-item uiux">
+          <div class="our-project">
+              <div class="img">
+                  <img src="img/Dashboard-1.jpg" alt="portfolio-1" class="img-fluid">
+              </div>
+              
           </div>
-          <div class="tab-pane fade" id="pills-publication" role="tabpanel" aria-labelledby="pills-publication-tab">
-            
+        </div>
+
+        <div class="col-sm-3 pb-3 element-item certificates">
+          <div class="our-project">
+              <div class="img">
+                  <img src="img/c-2.jpg" alt="portfolio-1" class="img-fluid">
+              </div>
+              
+          </div>
+        </div>
+
+        <div class="col-sm-3 pb-3 element-item uiux">
+          <div class="our-project">
+              <div class="img">
+                  <img src="img/Dashboard-3.png" alt="portfolio-1" class="img-fluid">
+              </div>
+              
+          </div>
+        </div>
+
+        <div class="col-sm-3 pb-3 certificates">
+          <div class="our-project">
+              <div class="img">
+                <img src="img/c-3.jpg" alt="certificates-1" class="img-fluid">
+              </div>
+              
+          </div>
+        </div>
+
+        <div class="col-sm-3 pb-3 certificates">
+          <div class="our-project">
+              <div class="img">
+                <img src="img/c-4.jpg" alt="certificates-1" class="img-fluid">
+              </div>
+              
+          </div>
+        </div>
+
+        <div class="col-sm-3 pb-3 element-item projects">
+          <div class="our-project">
+              <div class="img">
+                  <img src="img/project-1.jpg" alt="portfolio-1" class="img-fluid">
+              </div>  
           </div>
         </div>
       </div>
-    </div>
-  </section>
+  </div>
+</section>
 
+<!--------------------Interested To Work -------------->
+
+<section class="work">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-6">
+        <h2 class="pt-5 headline">Interested To Work</h2>
+        <p>I am available for doing UiUx design, Python Application Development, Web Development, Java Desktop Application, Web hosting, AI and ML. Feel free to contact me</p>
+        <a class="btn mt-3" href="#" role="button">Contact</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---------------------review------------------------------>
+<section class="review">
+  <div class="container">
+    <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">Client Reviews</h1>
+    
+  </div>
+</section>
+<!---------------------Contact us------------------------------>
+<section class="contact-us">
+  
+  <div class="container">
+    <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">Contact Me</h1>
+  </div>
+</section>
 <!--------------------Footer -------------->
   <footer class="footer pt-5">
     <div class="container">
@@ -692,37 +769,19 @@
   
 
   <script src="js/circle.js"></script>
-  <script src="js/aos.js"></script>
+  <script src="plugin/aos.js"></script>
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/swiper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="js/animation.js"></script>
   <script src="js/animation1.js"></script>
+  <script src="plugin/isotope.min.js"></script>
 
   <script type="text/javascript">
     AOS.init();
-  </script>
-
-  <script type="text/javascript">
-    var swiper = new Swiper(".swiper-container", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 60,
-        stretch: 0,
-        depth: 400,
-        modifier: 1,
-        slideShadows: true
-      },
-      pagination: {
-        el: ".swiper-pagination"
-      }
-    });
   </script>
 </body>
 
