@@ -43,28 +43,28 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#top">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#aboutme">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Experiences</a>
+            <a class="nav-link " href="#experience">Experiences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Portfolio</a>
+            <a class="nav-link " href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Reviews</a>
+            <a class="nav-link " href="#review">Reviews</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
+            <a class="nav-link " href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -190,7 +190,7 @@
 
 
   <!------------Service-------------------->
-  <section class="services pt-3 pb-3">
+  <section class="services pt-3 pb-3" id="services">
     <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">Services</h1>
     <div class="container pt-3">
       <div class="row">
@@ -290,7 +290,7 @@
   </section>
 
   <!-- ---------------------Technical Skills----------------- -->
-  <section class="tech-skills">
+  <section class="tech-skills" id="skills">
     <div class="container pt-4">
       <div>
         <h3 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">Technical Skills</h3>
@@ -586,7 +586,7 @@
   </section>
 
   <!--------------Experience--------------------------->
-  <section class="experience">
+  <section class="experience" id="experience">
     <div class="container">
       <div class="row">
 
@@ -683,7 +683,7 @@
   </section>
 
   <!-------------------Recent Portfolio------------------------>
-  <section class="project-area pb-5 pt-5">
+  <section class="project-area pb-5 pt-5" id="portfolio">
     <div class="container">
       <div class="project-title pb-5">
         <h1>Recent Portfolio</h1>
@@ -790,7 +790,7 @@
   </section>
 
   <!---------------------review------------------------------>
-  <section class="review">
+  <section class="review" id="review">
     <div class="container">
       <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">Client Says About Me</h1>
       <div class="carousel">
@@ -799,7 +799,7 @@
     </div>
   </section>
   <!---------------------Contact us------------------------------>
-  <section class="contact-us">
+  <section class="contact-us" id="contact">
 
     <div class="container">
       <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">Contact Me</h1>
@@ -919,7 +919,11 @@
 
   </footer>
 
-
+  
+  <script src="plugin/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', { });
+  </script>
   <script src="js/circle.js"></script>
   <script src="plugin/aos.js"></script>
 
