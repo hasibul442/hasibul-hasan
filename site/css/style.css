@@ -310,6 +310,22 @@ h1::after {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.contact-us .card{
+  background: #03071e;
+}
+.contact-us .card ul{
+  font-style: none;
+  list-style-type: none;
+}
+.contact-us button{
+  background-color: #9bf6ff;
+  color: black;
+}
+.contact-us button:hover{
+  background-color: #9bf6ff;
+  color: black;
+}
 /*--------------footer-----------------*/
 .footer{
   color: white;
